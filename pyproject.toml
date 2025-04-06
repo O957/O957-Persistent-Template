@@ -21,6 +21,9 @@ pre-commit = "^3.7.0"
 quote-style = "double"   # use single quotes
 indent-style = "tab"     # use tabs instead of spaces
 
+[tool.ruff.lint.mccabe]
+max-complexity = 15
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
