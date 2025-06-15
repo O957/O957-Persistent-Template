@@ -1,29 +1,27 @@
-[tool.poetry]
+[project]
 name = "baseline-template-change"
 version = "0.0.1"
-description = "The author's personal template for repository creation."
-authors = ["AFg6K7h4fhy2 <127630341+AFg6K7h4fhy2@users.noreply.github.com>"]
+authors = [
+  {name = "AFg6K7h4fhy2", email = "127630341+AFg6K7h4fhy2@users.noreply.github.com"},
+]
+description = "A template I find useful for setting up Python and R repositories."
 license = "Apache-2.0"
-package-mode = false
 readme = "README.md"
-repository = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2-Template"
 keywords = ["design-patterns", "template", "standards"]
+requires-python = ">=3.13"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-pre-commit = "^3.7.0"
+[project.urls]
+Repository = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2-Template"
+Issues = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2-Template/issues"
+"Author GitHub" = "https://github.com/AFg6K7h4fhy2"
 
-[tool.poetry.urls]
-"Repository Issues" = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2-Template/issues"
-"Author Homepage" = "https://github.com/AFg6K7h4fhy2"
-
-[tool.ruff.format]
-quote-style = "double"   # use single quotes
-indent-style = "tab"     # use tabs instead of spaces
+[project.optional-dependencies]
+test = [
+    "pytest>=8.4.0",
+]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 15
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.deptry]
+pep621_dev_dependency_groups = ["dev", "test"]
