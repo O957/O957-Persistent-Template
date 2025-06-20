@@ -81,7 +81,7 @@ repos:
         # when autofixing, retain the original
         # key ordering (instead of sorting
         # the keys)
-        args: ["--autofix", "--no-sort-keys"]
+        args: ["--autofix", "--no-sort-keys", "--indent", "4"]
     # trims trailing whitespace.
     -   id: trailing-whitespace
     # checks that non-binary executables have
