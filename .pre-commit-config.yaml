@@ -81,7 +81,7 @@ repos:
         # when autofixing, retain the original
         # key ordering (instead of sorting
         # the keys)
-        args: ["--autofix", "--no-sort-keys", "--indent", "4"]
+        args: ["--autofix", "--no-sort-keys",  "--indent", "4"]
     # trims trailing whitespace.
     -   id: trailing-whitespace
     # checks that non-binary executables have
@@ -162,7 +162,7 @@ repos:
 ###############################################################################
 -   repo: https://github.com/astral-sh/uv-pre-commit
     # uv version.
-    rev: 0.7.12
+    rev: 0.7.13
     hooks:
     -   id: uv-lock
 ###############################################################################
