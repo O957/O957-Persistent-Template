@@ -31,21 +31,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install UV
-        uses: astral-sh/setup-uv@v6
-        with:
-          enable-cache: true
+      # - name: Install UV
+      #   uses: astral-sh/setup-uv@v6
+      #   with:
+      #     enable-cache: true
 
       - name: Set Up Python
         uses: actions/setup-python@v5
         with:
           python-version-file: "pyproject.toml"
 
-      - name: Set Up UV Venv
-        run: uv venv
+      # - name: Set Up UV Venv
+      #   run: uv venv
+
+      # - name: Install
+      #   run: uv pip install deptry
 
       - name: Install
-        run: uv pip install deptry
+        run: |
+          python -m pip install --upgrade pip
+          pip install deptry
 
       - name: Check
         run: deptry .
