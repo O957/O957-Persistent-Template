@@ -6,7 +6,7 @@
 #
 # Description:
 #
-# This runs deptry `hubverse_annotator` on every push to main and on every pull
+# This runs `deptry .` on every push to main and on every pull
 # request. This action fails if deptry finds problems with dependencies that
 # are improperly specified.
 #
@@ -42,4 +42,4 @@ jobs:
 
       - name: Install & Run Deptry
         run: |
-          uvx deptry hubverse_annotator
+          uvx deptry .
