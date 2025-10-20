@@ -2,7 +2,7 @@
 name = "baseline-template-change"
 version = "0.0.1"
 authors = [
-  {name = "AFg6K7h4fhy2", email = "127630341+AFg6K7h4fhy2@users.noreply.github.com"},
+  {name = "O957", email = "127630341+O957@users.noreply.github.com"},
 ]
 description = "A template I find useful for setting up Python and R repositories."
 license = "Apache-2.0"
@@ -11,9 +11,9 @@ keywords = ["design-patterns", "template", "standards"]
 requires-python = ">=3.13"
 
 [project.urls]
-Repository = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2-Template"
-Issues = "https://github.com/AFg6K7h4fhy2/AFg6K7h4fhy2-Template/issues"
-"Author GitHub" = "https://github.com/AFg6K7h4fhy2"
+Repository = "https://github.com/O957/O957-Template"
+Issues = "https://github.com/O957/O957-Template/issues"
+"Author GitHub" = "https://github.com/O957"
 
 [project.optional-dependencies]
 test = [
