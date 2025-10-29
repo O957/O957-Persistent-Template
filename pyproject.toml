@@ -15,13 +15,8 @@ Repository = "https://github.com/O957/O957-Template"
 Issues = "https://github.com/O957/O957-Template/issues"
 "Author GitHub" = "https://github.com/O957"
 
-[project.optional-dependencies]
-test = [
-    "pytest>=8.4.0",
-]
-
 [tool.ruff.lint.mccabe]
-max-complexity = 15
+max-complexity = 12
 
 [tool.deptry]
 pep621_dev_dependency_groups = ["dev", "test"]
