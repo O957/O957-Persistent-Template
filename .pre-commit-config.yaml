@@ -94,7 +94,7 @@ repos:
 # PYTHON
 ###############################################################################
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.6
+    rev: v0.14.11
     hooks:
     # "currently, the Ruff formatter does not sort imports.
     # In order to both sort imports and format, call
@@ -162,14 +162,14 @@ repos:
 ###############################################################################
 -   repo: https://github.com/astral-sh/uv-pre-commit
     # uv version.
-    rev: 0.9.11
+    rev: 0.9.24
     hooks:
     -   id: uv-lock
 ###############################################################################
 # MAKE FILES
 ###############################################################################
 -   repo: https://github.com/mrtazz/checkmake.git
-    rev: 0.2.2
+    rev: v0.3.0
     hooks:
     -   id: checkmake
 ###############################################################################
@@ -187,14 +187,14 @@ repos:
 # GITHUB ACTIONS
 ###############################################################################
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.9
+    rev: v1.7.10
     hooks:
     -   id: actionlint
 ###############################################################################
 # SPELLING
 ###############################################################################
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.39.1
+    rev: v1
     hooks:
     -   id: typos
         args: ["--force-exclude"]
@@ -202,7 +202,7 @@ repos:
 # COMMIT MESSAGES
 ###############################################################################
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.10.0
+    rev: v4.11.2
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
