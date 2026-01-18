@@ -37,7 +37,7 @@ repos:
     -   id: markdownlint
         args: [--fix, --ignore=MD013]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.5
+    rev: v0.14.6
     hooks:
     -   id: ruff
         args: [
@@ -71,7 +71,7 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.9.9
+    rev: 0.9.11
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/mrtazz/checkmake.git
@@ -85,7 +85,7 @@ repos:
         args: ["--baseline", ".secrets.baseline"]
         exclude: package.lock.json
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.8
+    rev: v1.7.9
     hooks:
     -   id: actionlint
 -   repo: https://github.com/crate-ci/typos
