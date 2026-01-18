@@ -1,6 +1,6 @@
 # BLANK README
 
-This repository was generated from [O957](https://github.com/O957)'s [template repository](https://github.com/O957/O957-Template).
+This repository was generated from [O957](https://github.com/O957)'s [template repository](https://github.com/O957/O957-Persistent-Template).
 
 If you are seeing this message, then this repository likely contains no meaningful content.
 
