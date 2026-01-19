@@ -14,10 +14,10 @@ Primarily, aim to follow GitHub's community guidelines:
 
 Secondarily, aim to follow these guidelines[^guidelines], as outlined by the author:
 
-- **Use Evidence**: Please attempt to back suggestions, contributions, code changes, and feature requests with evidence, such as relevant documentation, benchmarks, research papers, or conversations, among other things.
-- **Transparency**: Please attempt to maintain transparency in discussions by clearly stating your motivations and assumptions, along with any limitations in your contributions or suggestions. Be explicit about areas where you are uncertain or where you lack evidence, specifying the degree of uncertainty where possible.
-- **Adherence To Standards**: Please attempt to follow existing standards or best practices relevant to the project, tools, or procedures to ensure consistency and readability.
-- **Prioritize Impact**: Please attempt to consider how your contributions affect the project's broader goals, integration with other tools or workflows, and long-term implications. Focus on improving the project's quality, usability, and performance. Reflect on its role within the context of civilization and strive to minimize harm or wasted effort.
-- **Maintain Integrity**: Do not intentionally misrepresent data, results, or contributions. Please always strive for epistemic rigor, accuracy, and honesty.
+* __Use Evidence__: Please attempt to back suggestions, contributions, code changes, and feature requests with evidence, such as relevant documentation, benchmarks, research papers, or conversations, among other things.
+* __Transparency__: Please attempt to maintain transparency in discussions by clearly stating your motivations and assumptions, along with any limitations in your contributions or suggestions. Be explicit about areas where you are uncertain or where you lack evidence, specifying the degree of uncertainty where possible.
+* __Adherence To Standards__: Please attempt to follow existing standards or best practices relevant to the project, tools, or procedures to ensure consistency and readability.
+* __Prioritize Impact__: Please attempt to consider how your contributions affect the project's broader goals, integration with other tools or workflows, and long-term implications. Focus on improving the project's quality, usability, and performance. Reflect on its role within the context of civilization and strive to minimize harm or wasted effort.
+* __Maintain Integrity__: Do not intentionally misrepresent data, results, or contributions. Please always strive for epistemic rigor, accuracy, and honesty.
 
 [^guidelines]: The author welcomes, as is the case with most (all?) of the author's work, comments from the audience on these guidelines. The author is open to revising these contribution guidelines with suggestions engendered via reasonable criticism and discussion.
