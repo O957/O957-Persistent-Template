@@ -37,7 +37,7 @@ repos:
     -   id: markdownlint
         args: [--fix, --ignore=MD013]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.13
+    rev: v0.15.0
     hooks:
     -   id: ruff
         args: [
@@ -71,7 +71,7 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.9.26
+    rev: 0.10.0
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/Yelp/detect-secrets
@@ -90,7 +90,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.11.6
+    rev: v4.13.7
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
