@@ -32,35 +32,16 @@ repos:
         files: \.sh$
     -   id: detect-private-key
 -   repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.47.0
+    rev: v0.48.0
     hooks:
     -   id: markdownlint
-        args: [--fix, --ignore=MD013]
+        args: [--fix]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.13
+    rev: v0.15.7
     hooks:
     -   id: ruff
-        args: [
-          "check",
-          "--select",
-          "I",
-          "--fix"
-        ]
-    -   id: ruff
-        args: [
-          "--ignore=E741",
-          "--ignore=E731",
-          "--ignore=W191",
-          "--ignore=B018",
-          "--ignore=C901",
-          "--select=E,W,F,B,C90,UP,SIM",
-          "--line-length=79",
-          "--fix"
-        ]
+        args: ["check", "--fix"]
     -   id: ruff-format
-        args: [
-          "--line-length=79",
-        ]
 -   repo: https://github.com/rubik/xenon
     rev: v0.9.3
     hooks:
@@ -71,9 +52,13 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.9.26
+    rev: 0.10.11
     hooks:
     -   id: uv-lock
+-   repo: https://github.com/jendrikseipp/vulture
+    rev: v2.15
+    hooks:
+    -   id: vulture
 -   repo: https://github.com/Yelp/detect-secrets
     rev: v1.5.0
     hooks:
@@ -81,7 +66,7 @@ repos:
         args: ["--baseline", ".secrets.baseline"]
         exclude: package.lock.json
 -   repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: v1.7.11
     hooks:
     -   id: actionlint
 -   repo: https://github.com/crate-ci/typos
@@ -90,7 +75,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.11.6
+    rev: v4.13.9
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
