@@ -1,13 +1,9 @@
 
 [default.extend-words]
 # words that should not be corrected
-O957 = "O957"
-dot_acn = ".acn"
-dot_fot = ".fot"
-dot_ist = ".ist"
+
 
 [files]
 extend-exclude = [
     ".gitignore",
-    ".pre-commit-config.yaml",
-    "./.github/ISSUE_TEMPLATE/*.md"]
+]

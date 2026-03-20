@@ -662,3 +662,4 @@ author_emails.txt
 # csv files must be converted to parquet files
 *.csv
 env
+sandbox
