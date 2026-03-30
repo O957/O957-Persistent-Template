@@ -37,7 +37,7 @@ repos:
     -   id: markdownlint
         args: [--fix]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.7
+    rev: v0.15.8
     hooks:
     -   id: ruff
         args: ["check", "--fix"]
@@ -52,11 +52,11 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.10.12
+    rev: 0.11.2
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/jendrikseipp/vulture
-    rev: v2.15
+    rev: v2.16
     hooks:
     -   id: vulture
 -   repo: https://github.com/Yelp/detect-secrets
