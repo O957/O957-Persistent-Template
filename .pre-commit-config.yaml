@@ -37,7 +37,7 @@ repos:
     -   id: markdownlint
         args: [--fix]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.9
+    rev: v0.15.10
     hooks:
     -   id: ruff
         args: ["check", "--fix"]
@@ -52,7 +52,7 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.11.3
+    rev: 0.11.6
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/jendrikseipp/vulture
@@ -75,7 +75,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.13.9
+    rev: v4.13.10
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
