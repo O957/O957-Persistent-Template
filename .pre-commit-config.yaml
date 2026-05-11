@@ -52,7 +52,7 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.11.11
+    rev: 0.11.13
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/jendrikseipp/vulture
