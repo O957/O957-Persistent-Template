@@ -89,11 +89,11 @@ repos:
         stages: [commit-msg]
         args: [--strict, --force-scope, feat, fix, chore, test, custom]
 -   repo: https://github.com/etiennebacher/jarl-pre-commit
-    rev: 0.4.0
+    rev: 0.5.0
     hooks:
     -   id: jarl-check
-        args: [--fix]
+        args: ["--fix", "--allow-dirty"]
 -   repo: https://github.com/posit-dev/air-pre-commit
-    rev: 0.8.2
+    rev: 0.9.0
     hooks:
     -   id: air-format
