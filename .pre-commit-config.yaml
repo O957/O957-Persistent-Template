@@ -39,8 +39,8 @@ repos:
 -   repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.15.12
     hooks:
-    -   id: ruff
-        args: ["check", "--fix"]
+    -   id: ruff-check
+        args: ["--fix"]
     -   id: ruff-format
 -   repo: https://github.com/rubik/xenon
     rev: v0.9.3
@@ -88,3 +88,12 @@ repos:
     -   id: conventional-pre-commit
         stages: [commit-msg]
         args: [--strict, --force-scope, feat, fix, chore, test, custom]
+-   repo: https://github.com/etiennebacher/jarl-pre-commit
+    rev: 0.4.0
+    hooks:
+    -   id: jarl-check
+        args: [--fix]
+-   repo: https://github.com/posit-dev/air-pre-commit
+    rev: 0.8.2
+    hooks:
+    -   id: air-format
