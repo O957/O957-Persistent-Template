@@ -32,12 +32,12 @@ repos:
         files: \.sh$
     -   id: detect-private-key
 -   repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.48.0
+    rev: v0.49.0
     hooks:
     -   id: markdownlint
         args: [--fix]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.17
+    rev: v0.15.18
     hooks:
     -   id: ruff-check
         args: ["--fix"]
@@ -52,7 +52,7 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.11.21
+    rev: 0.11.23
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/jendrikseipp/vulture
@@ -76,7 +76,7 @@ repos:
     -   id: typos
         args: ["--force-exclude"]
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.16.3
+    rev: v4.16.4
     hooks:
     -   id: commitizen
 -   repo: https://github.com/jorisroovers/gitlint
@@ -95,6 +95,6 @@ repos:
     -   id: jarl-check
         args: ["--fix", "--allow-dirty"]
 -   repo: https://github.com/posit-dev/air-pre-commit
-    rev: 0.9.0
+    rev: 0.10.0
     hooks:
     -   id: air-format
