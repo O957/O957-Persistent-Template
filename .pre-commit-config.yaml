@@ -37,7 +37,7 @@ repos:
     -   id: markdownlint
         args: [--fix]
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.22
+    rev: v0.16.0
     hooks:
     -   id: ruff-check
         args: ["--fix"]
@@ -52,7 +52,7 @@ repos:
             "--max-average=A"
         ]
 -   repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.11.29
+    rev: 0.11.32
     hooks:
     -   id: uv-lock
 -   repo: https://github.com/jendrikseipp/vulture
@@ -95,6 +95,6 @@ repos:
     -   id: jarl-check
         args: ["--fix", "--allow-dirty"]
 -   repo: https://github.com/posit-dev/air-pre-commit
-    rev: 0.10.0
+    rev: 0.11.0
     hooks:
     -   id: air-format
