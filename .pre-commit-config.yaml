@@ -62,7 +62,7 @@ repos:
         args: ["--min-confidence", "80"]
 -   repo: https://github.com/Yelp/detect-secrets
     rev: v1.5.0
-    hooks:
+    hooks: # run: detect-secrets scan > .secrets.baseline
     -   id: detect-secrets
         args: ["--baseline", ".secrets.baseline"]
         exclude: package.lock.json
@@ -98,3 +98,26 @@ repos:
     rev: 0.11.0
     hooks:
     -   id: air-format
+-   repo: https://github.com/jonasbb/pre-commit-latex-hooks
+    rev: v1.4.0
+    hooks:
+    -   id: american-eg-ie
+    -   id: cleveref-capitalization
+    -   id: consistent-spelling
+        args: [
+            "--emph=et al.",
+            "--emph=a priori",
+            "--emph=a posteriori",
+            '--regex=naive=\bna(i|\\"i)ve',
+        ]
+    -   id: csquotes
+    -   id: ensure-labels-for-sections
+    -   id: no-space-in-cite
+    -   id: tilde-cite
+    -   id: unique-labels
+    -   id: cleveref-instead-of-autoref
+-   repo: https://github.com/ComPWA/taplo-pre-commit
+    rev: v0.9.3
+    hooks:
+    -   id: taplo-format
+    -   id: taplo-lint
