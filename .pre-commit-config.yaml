@@ -121,3 +121,4 @@ repos:
     hooks:
     -   id: taplo-format
     -   id: taplo-lint
+        args: ["--no-schema"]

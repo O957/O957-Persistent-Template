@@ -4,6 +4,4 @@
 
 
 [files]
-extend-exclude = [
-    ".gitignore",
-]
+extend-exclude = [".gitignore"]

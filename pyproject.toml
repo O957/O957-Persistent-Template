@@ -2,7 +2,7 @@
 name = "baseline-template-change"
 version = "0.0.1"
 authors = [
-  {name = "O957", email = "127630341+O957@users.noreply.github.com"},
+  { name = "O957", email = "127630341+O957@users.noreply.github.com" },
 ]
 description = ""
 license = "Apache-2.0"
@@ -11,8 +11,8 @@ keywords = ["design-patterns", "template", "standards"]
 requires-python = ">=3.11"
 
 [project.urls]
-Repository = "https://github.com/O957/O957-Template"
-Issues = "https://github.com/O957/O957-Template/issues"
+Repository      = "https://github.com/O957/O957-Template"
+Issues          = "https://github.com/O957/O957-Template/issues"
 "Author GitHub" = "https://github.com/O957"
 
 [tool.ruff.lint.mccabe]
