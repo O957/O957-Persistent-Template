@@ -1,3 +1,3 @@
 # Equations
 
-_This document captures any notable equations and mathematics of this repository or project._
+_This document captures any notable equations relevant to or featured in this repository._
