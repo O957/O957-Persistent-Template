@@ -1,10 +1,6 @@
 [formatting]
 align_entries = true
-reorder_keys  = false
 column_width  = 79
-
-[schema]
-path = "taplo://taplo.toml"
 
 # see https://taplo.tamasfe.dev/configuration/formatter-options.html
 # for more formatting options

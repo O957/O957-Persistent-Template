@@ -1,3 +1,3 @@
 # Decisions
 
-_This document contains justification and reasoning for design and other decisions made during the construction of this repository or project._
+_This document contains justifications and reasoning for repository design and other decisions made during the construction of this repository._
