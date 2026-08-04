@@ -1,3 +1,4 @@
+default_install_hook_types: [pre-commit, commit-msg]
 
 ci:
     autofix_commit_msg: |
@@ -9,6 +10,7 @@ ci:
     autoupdate_schedule: monthly
     skip: []
     submodules: false
+
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
@@ -75,6 +77,9 @@ repos:
     hooks:
     -   id: typos
         args: ["--force-exclude"]
+    -   id: typos
+        name: commit-msg-typos
+        stages: [commit-msg]
 -   repo: https://github.com/commitizen-tools/commitizen
     rev: v4.16.5
     hooks:
