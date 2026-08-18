@@ -663,3 +663,5 @@ author_emails.txt
 *.csv
 env
 sandbox
+roadmap.md
+collections.parquet
