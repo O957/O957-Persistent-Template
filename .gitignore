@@ -665,3 +665,5 @@ env
 sandbox
 roadmap.md
 collections.parquet
+*_files
+archive
