@@ -2,28 +2,22 @@ on:
   push:
     branches: [main, master]
   pull_request:
-
 name: "Run Deptry Check"
-
 permissions: read-all
-
 jobs:
   check:
     name: "Deptry Check"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-
       - name: "Install UV"
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
-
       - name: "Set Up Python"
         uses: actions/setup-python@v7
         with:
           python-version-file: "pyproject.toml"
-
       - name: "Install & Run Deptry"
         run: |
           uvx deptry .
