@@ -38,7 +38,7 @@ repos:
       - id: markdownlint
         args: ["--fix"]
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.16.1
+    rev: v0.16.6
     hooks:
       - id: ruff-check
         args: ["--fix"]
@@ -49,7 +49,7 @@ repos:
       - id: xenon
         args: ["--max-absolute=B", "--max-modules=B", "--max-average=A"]
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.12.1
+    rev: 0.12.10
     hooks:
       - id: uv-lock
   - repo: https://github.com/jendrikseipp/vulture
@@ -74,7 +74,7 @@ repos:
         args: ["--force-exclude"]
         stages: ["pre-commit", "commit-msg"]
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.17.0
+    rev: v4.18.0
     hooks:
       - id: commitizen
   - repo: https://github.com/jorisroovers/gitlint
@@ -89,7 +89,7 @@ repos:
         stages: ["commit-msg"]
         args: ["--strict", "--force-scope", "feat", "fix", "chore", "test", "custom"]
   - repo: https://github.com/etiennebacher/jarl-pre-commit
-    rev: 0.5.0
+    rev: 0.6.0
     hooks:
       - id: jarl-check
         args: ["--fix", "--allow-dirty"]
@@ -117,20 +117,20 @@ repos:
       - id: taplo-lint
         args: ["--no-schema"]
   - repo: https://github.com/astral-sh/ty-pre-commit
-    rev: v0.0.66
+    rev: v0.0.78
     hooks:
       - id: ty
   - repo: https://github.com/jolars/panache-pre-commit
-    rev: v3.3.0
+    rev: v3.9.0
     hooks:
       - id: panache-format
       - id: panache-lint
   - repo: https://github.com/jolars/badness-pre-commit
-    rev: v0.11.0
+    rev: v0.23.0
     hooks:
       - id: badness-lint
       - id: badness-format
   - repo: https://github.com/google/yamlfmt
-    rev: v0.19.0
+    rev: v0.21.0
     hooks:
       - id: yamlfmt
