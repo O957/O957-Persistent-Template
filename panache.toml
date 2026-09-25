@@ -22,11 +22,6 @@ yaml   = "yamlfmt"
 python = "ruff"
 r      = "jarl"
 
-[lint]
-select = ["D", "ANN"]
-
 [lint.rules]
-missing-chunk-labels = false
-
-[lint.pydocstyle]
-convention = "numpy"
+missing-chunk-labels      = false
+undefined-reference-label = false

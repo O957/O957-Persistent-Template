@@ -1,3 +1,4 @@
 # Glossary
 
-_This document contains definitions of terms relevant to understanding this repository._
+*This document contains definitions of terms relevant to understanding this
+repository.*
