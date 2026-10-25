@@ -2,15 +2,18 @@ version: 2
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "sunday"
-      time: "10:00"
-      timezone: "America/Denver"
+    groups:
+      actions:
+        patterns:
+          - "*"
     reviewers:
       - "O957"
     assignees:
       - "O957"
+    schedule:
+      interval: "monthly"
+    cooldown:
+      default-days: 14
     pull-request-branch-name:
       separator: "-"
     labels:
@@ -18,10 +21,23 @@ updates:
   - package-ecosystem: "uv"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "sunday"
-      time: "10:00"
-      timezone: "America/Denver"
+      interval: "monthly"
+    cooldown:
+      default-days: 14
+    reviewers:
+      - "O957"
+    assignees:
+      - "O957"
+    pull-request-branch-name:
+      separator: "-"
+    labels:
+      - "Dependencies"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    cooldown:
+      default-days: 14
     reviewers:
       - "O957"
     assignees:
